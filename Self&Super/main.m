@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "B.h"
+#import "C.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        B *b = [B alloc];
+//        B *b2=[b init]; //只new一个出一个对象
+//        [b2 print];
+        
+        C *c =[[C alloc]init];
+        [c print];
+        
+        
     }
     return 0;
 }
